@@ -4,10 +4,17 @@
     padding: 0px;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 16px 100px;
+    /* margin: 16px 100px; */
+    padding: 16px 100px;
+    background-color: #1f2937;
+    color: white;
 }
 
 ul {
