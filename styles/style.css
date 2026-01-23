@@ -76,3 +76,12 @@ img {
     font-size: 18px;
     color: #e5e7eb
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-content {
+    display: flex;
+}
