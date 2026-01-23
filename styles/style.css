@@ -80,8 +80,24 @@ img {
 .information {
     display: flex;
     flex-direction: column;
+    padding: 16px 128px 100px;
+    gap: 16px;
+    align-items: center;
 }
 
 .information-content {
     display: flex;
+    gap: 32px;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding-bottom: 16px;
+}
+
+.information-text img {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
 }
