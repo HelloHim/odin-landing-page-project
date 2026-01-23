@@ -98,16 +98,19 @@ body {
 }
 
 .information-card {
-    width: 128px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
 }
 
 .information-card img {
     border: 2px solid #3882f6;
     border-radius: 8px;
-    width: 100%;
+    width: 120px;
+    height: 120px;
 }
 
 .information-card p {
     margin-top: 8px;
+    font-size: 13px;
 }
